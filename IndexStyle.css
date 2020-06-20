@@ -1,0 +1,68 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 1px;
+    overflow: hidden;
+    background-color: grey;
+    position: fixed;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 92px;
+    text-decoration: none;
+    font-family: "Josefin Sans";
+    transition: 0.6s ease;
+
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: black;
+}
+body{
+    background-image: url("LandingBackground.jpg");
+    opacity: 92%;
+    background-size: cover;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+
+    color: white;
+    transition: 0.6s ease;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Josefin Sans";
+    font-weight: lighter;
+    color: white;
+}
+
+img{
+
+    filter: brightness(70%);
+    border: white;
+    margin-left: 90px;
+}
+
+img:hover{
+    filter: grayscale(0%);
+    transition: 0.5s ease;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+}
