@@ -30,8 +30,8 @@ li a:hover {
     background-color: #111;
 }
 body{
-    background-image: url("LandingBackground.jpg");
-    opacity: 92%;
+    background-image: url("ContactBackground.jpg");
+    opacity: 85%;
     background-size: cover;
 
 }
@@ -51,40 +51,22 @@ h2{
     font-weight: lighter;
     color: white;
 }
-
+p{
+    margin-top: -140px;
+    margin-left: 330px;
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+    font-family: Josefin Sans;
+}
 img{
-
-    filter: brightness(70%);
-    border: white;
-
-    margin-left: 90px;
+    margin-left:100px;
+    opacity: 85%;
 }
-li1{
-    color: white;
-    font-family: "Josefin Sans";
-    text-align: center;
-    margin-left: 150px;
-    font-size: large;
-}
-li2{
-    color: white;
-    font-family: "Josefin Sans";
-    text-align: center;
-    margin-left: 300px;
-    font-size: large;
-}li3{
-     color: white;
-     font-family: "Josefin Sans";
-     text-align: center;
-     margin-left: 340px;
-     font-size: large;
- }
-
 img:hover{
-    filter: grayscale(0%);
     transition: 0.5s ease;
     -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);
     transform: scale(1.15);
-
+    opacity:100%;
 }

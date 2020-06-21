@@ -30,8 +30,8 @@ li a:hover {
     background-color: #111;
 }
 body{
-    background-image: url("LandingBackground.jpg");
-    opacity: 92%;
+    background-image: url("AboutBackground.jpg");
+    opacity: 85%;
     background-size: cover;
 
 }
@@ -51,40 +51,12 @@ h2{
     font-weight: lighter;
     color: white;
 }
-
-img{
-
-    filter: brightness(70%);
-    border: white;
-
-    margin-left: 90px;
-}
-li1{
-    color: white;
-    font-family: "Josefin Sans";
+h3{
     text-align: center;
     margin-left: 150px;
-    font-size: large;
-}
-li2{
-    color: white;
+    margin-right: 150px;
+    font-size: 20px;
     font-family: "Josefin Sans";
-    text-align: center;
-    margin-left: 300px;
-    font-size: large;
-}li3{
-     color: white;
-     font-family: "Josefin Sans";
-     text-align: center;
-     margin-left: 340px;
-     font-size: large;
- }
-
-img:hover{
-    filter: grayscale(0%);
-    transition: 0.5s ease;
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    transform: scale(1.15);
-
+    font-weight: lighter;
+    color: white;
 }
