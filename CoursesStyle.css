@@ -16,7 +16,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 15px 90px;
+    padding: 15px 85px;
     text-decoration: none;
     font-family: "Josefin Sans";
     transition: 0.6s ease;
@@ -151,10 +151,9 @@ p{
 
 }
 
-table{
+table {
     color: white;
     font-family: Josefin Sans;
     font-weight: lighter;
     alignment: center;
-
 }
