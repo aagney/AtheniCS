@@ -24,12 +24,8 @@ li a {
     font-family: "Josefin Sans";
     transition: 0.6s ease;
     width: 4.27vw;
-}body{
-     background-image: url("CoursesBackground.jpg");
-     opacity: 92%;
-     background-size: cover;
-
- }
+}
+ 
 @media only screen and (min-width: 1201px) {
     body{
         background-image: url("CoursesBackground.jpg");
