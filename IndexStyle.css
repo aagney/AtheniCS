@@ -1,14 +1,27 @@
+
 ul {
     list-style-type: none;
     margin: 0px;
     padding:01px;
     overflow: hidden;
     background-color: grey;
-    position: fixed;
-}
 
+}
+.flex-container > div {
+    font-size: 30px;
+    width: 100%;
+
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    margin-left:13vw;
+    margin-right: 10vw;
+    width: 80vw;
+
+}
 li {
-    float: right;
+    float: left;
 }
 
 li a {
@@ -19,8 +32,7 @@ li a {
     text-decoration: none;
     font-family: "Josefin Sans";
     transition: 0.6s ease;
-    border-right: 1px solid white;
-    border-left: 1px solid white;
+
 }
 
 
@@ -32,7 +44,10 @@ li a:hover {
 body{
     background-image: url("LandingBackground.jpg");
     opacity: 92%;
-    background-size: cover;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center center;
 
 }
 
@@ -57,28 +72,23 @@ img{
     filter: brightness(70%);
     border: white;
 
-    margin-left: 90px;
+
 }
-li1{
-    color: white;
-    font-family: "Josefin Sans";
-    text-align: center;
-    margin-left: 150px;
-    font-size: large;
+.flex-container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+
 }
-li2{
-    color: white;
+.flex-container1 > div{
+    font-size: 20px;
     font-family: "Josefin Sans";
-    text-align: center;
-    margin-left: 300px;
-    font-size: large;
-}li3{
-     color: white;
-     font-family: "Josefin Sans";
-     text-align: center;
-     margin-left: 340px;
-     font-size: large;
- }
+
+    color: white;
+}
+
+
 
 img:hover{
     filter: grayscale(0%);
