@@ -11,23 +11,16 @@ li {
 }
 
 li a {
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
-    padding: 15px 90px;
+    padding: 15px 96px;
     text-decoration: none;
     font-family: "Josefin Sans";
     transition: 0.6s ease;
-
+    width: 4.27vw;
 }
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding:01px;
-    overflow: hidden;
-    background-color: grey;
 
-}
 .flex-container > div {
     font-size: 30px;
     width: 100%;
@@ -46,9 +39,44 @@ ul {
     p{
         display: none;
     }
+    body{
+        background-image: url("LandingBackground.jpg");
+        opacity: 92%;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position: center center;
 
+    }
 }
 @media only screen and (max-width: 1200px) {
+    body{
+        opacity: 92%;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position: center center;
+
+    }
+    flex-container2{
+        align-items: center;
+        justify-content: space-between;
+    }
+    li {
+        float: left;
+    }
+
+    li a {
+        display: flex;
+        color: white;
+        text-align: center;
+        padding: 10px 54.2px;
+        text-decoration: none;
+        font-family: "Josefin Sans";
+        transition: 0.6s ease;
+
+    }
+
     .flex-container {
         display: flex;
         align-items: center;
@@ -70,12 +98,11 @@ ul {
         margin-top: 20px;
     }
     body{
-        background-image: url("LandingBackgroundMobile.jpg");
+        background-image: none;
         opacity: 92%;
         background-size: cover;
         background-repeat: no-repeat;
         background-color: black;
-        background-position: center center;
     }
     .flex-container1{
         display: none;
@@ -97,15 +124,7 @@ ul {
 li a:hover {
     background-color: #111;
 }
-body{
-    background-image: url("LandingBackground.jpg");
-    opacity: 92%;
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    background-color: black;
-    background-position: center center;
 
-}
 
 h1{
     text-align: center;
