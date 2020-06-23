@@ -34,9 +34,56 @@ li a {
     transition: 0.6s ease;
 
 }
+@media only screen and (min-width: 601px) {
+    p{
+        display: none;
+    }
 
+}
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        display: flex;
+        align-items: center;
+        margin-left:13vw;
+        margin-right: 10vw;
+        flex-flow: column;
+    }
+    img{
+        filter: grayscale(0%);
+        transition: 0.5s ease;
+        -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        transform: scale(1.15);
+    }
+    .flex-container > div{
+        width: 65%;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    body{
+        background-image: url("LandingBackground.jpg");
+        opacity: 92%;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position: center center;
+    }
+    .flex-container1{
+        display: none;
+    }
+    .flex-container1>div{
+        display: none;
+    }
 
+    p{
+        font-family: "Josefin Sans";
+        color: white;
+        font-size: 4vw;
+        text-align: center;
+        margin-right: 13vw;
+    }
 
+}
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
@@ -98,3 +145,5 @@ img:hover{
     transform: scale(1.15);
 
 }
+
+
