@@ -1,4 +1,25 @@
+.flex-container2{
+    width: 96.38vw;
+    background-color: grey;
+    height: 8vh;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    float: left;
+}
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 90px;
+    text-decoration: none;
+    font-family: "Josefin Sans";
+    transition: 0.6s ease;
+
+}
 ul {
     list-style-type: none;
     margin: 0px;
@@ -20,27 +41,14 @@ ul {
     width: 80vw;
 
 }
-li {
-    float: left;
-}
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 90px;
-    text-decoration: none;
-    font-family: "Josefin Sans";
-    transition: 0.6s ease;
-
-}
-@media only screen and (min-width: 1601px) {
+@media only screen and (min-width: 1201px) {
     p{
         display: none;
     }
 
 }
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1200px) {
     .flex-container {
         display: flex;
         align-items: center;
@@ -48,6 +56,7 @@ li a {
         margin-right: 10vw;
         flex-flow: column;
     }
+
     img{
         filter: grayscale(0%);
         transition: 0.5s ease;
@@ -61,9 +70,9 @@ li a {
         margin-top: 20px;
     }
     body{
-        background-image: url("LandingBackground.jpg");
+        background-image: url("LandingBackgroundMobile.jpg");
         opacity: 92%;
-        background-size: 100vw;
+        background-size: cover;
         background-repeat: no-repeat;
         background-color: black;
         background-position: center center;
