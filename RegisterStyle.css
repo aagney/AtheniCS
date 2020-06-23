@@ -1,29 +1,66 @@
-
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding:01px;
-    overflow: hidden;
+.flex-container2{
+    width: 96.38vw;
     background-color: grey;
-
+    height: 8vh;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
 }
-
 li {
-    float: right;
+    float: left;
 }
 
 li a {
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
-    padding: 15px 90px;
+    padding: 15px 96px;
     text-decoration: none;
     font-family: "Josefin Sans";
     transition: 0.6s ease;
-
+    width: 4.27vw;
 }
+@media only screen and (min-width: 1201px) {
+    body{
+        background-image: url("CoursesBackground.jpg");
+        opacity: 92%;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position: center center;
 
+    }
+}
+@media only screen and (max-width: 1200px) {
+    body {
+        opacity: 92%;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-color: #1d5f80;
+        background-position: center center;
 
+    }
+
+    flex-container2 {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: flex;
+        color: white;
+        text-align: center;
+        padding: 10px 54.2px;
+        text-decoration: none;
+        font-family: "Josefin Sans";
+        transition: 0.6s ease;
+
+    }
+}
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
@@ -43,12 +80,7 @@ h2{
     font-family:  Josefin Sans;
     font-weight: lighter;
 }
-body{
-    background-image: url("RegisterBackground.jpg");
-    opacity: 92%;
-    background-size: cover;
 
-}
 h3{
     text-align: left;
     margin-left: 150px;
