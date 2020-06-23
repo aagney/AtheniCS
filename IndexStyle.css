@@ -34,13 +34,13 @@ li a {
     transition: 0.6s ease;
 
 }
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1601px) {
     p{
         display: none;
     }
 
 }
-@media only screen and (max-width: 20000px) {
+@media only screen and (max-width: 1600px) {
     .flex-container {
         display: flex;
         align-items: center;
