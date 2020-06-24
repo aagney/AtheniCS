@@ -98,9 +98,9 @@ table, th, td {
 }
 td:hover{
     transition: 0.5s ease;
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    transform: scale(1.15);
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
 }
 p{
     text-align: right;
