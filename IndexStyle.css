@@ -61,6 +61,8 @@ li a {
     flex-container2{
         align-items: center;
         justify-content: space-between;
+        height: 3vh;
+        width: 100vh;
     }
     li {
         float: left;

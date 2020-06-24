@@ -102,6 +102,13 @@ td:hover{
     -ms-transform: scale(1.06);
     transform: scale(1.06);
 }
+td1:hover{
+    background-image: url("JavaIcon.png");
+    transition: 0.5s ease;
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+}
 p{
     text-align: right;
     margin-right: 20px;
