@@ -1,7 +1,8 @@
+
 .flex-container2{
     width: 96.38vw;
     background-color: grey;
-    height: 8vh;
+    height: 5vh;
     list-style-type: none;
     justify-content: center;
     align-items: center;
@@ -12,6 +13,7 @@ li {
 
 li a {
     display: flex;
+    list-style-type: none;
     color: white;
     text-align: center;
     padding: 15px 96px;
@@ -20,7 +22,7 @@ li a {
     transition: 0.6s ease;
     width: 4.27vw;
 }
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1001px) {
     body{
         background-image: url("ContactBackground.jpg");
         opacity: 92%;
@@ -30,10 +32,32 @@ li a {
         background-position: center center;
 
     }
+    flex-container2{
+        width: 96.38vw;
+        background-color: grey;
+        height: 10vw ;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+
+    }
+    li {
+        float: left;
+    }
+
+    li a {
+        margin-left: 5vw;
+        display: flex;
+        color: white;
+        text-align: center;
+        padding: 1vh 8.1vh;
+        text-decoration: none;
+        font-family: "Josefin Sans";
+        transition: 0.6s ease;
+
+    }
 }
-
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     body {
         opacity: 92%;
         background-size: 100vw;
@@ -46,6 +70,7 @@ li a {
     flex-container2 {
         align-items: center;
         justify-content: space-between;
+
     }
 
     li {
@@ -53,10 +78,11 @@ li a {
     }
 
     li a {
+
         display: flex;
         color: white;
         text-align: center;
-        padding: 10px 54.2px;
+        padding: 2vh 3.4vh;
         text-decoration: none;
         font-family: "Josefin Sans";
         transition: 0.6s ease;
