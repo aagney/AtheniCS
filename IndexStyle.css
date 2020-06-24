@@ -47,6 +47,7 @@ li a {
         background-color: black;
         background-position: center center;
 
+
     }
     flex-container2{
         width: 96.38vw;
@@ -66,7 +67,7 @@ li a {
         display: flex;
         color: white;
         text-align: center;
-        padding: 1vh 10vh;
+        padding: 1vh 7vh;
         text-decoration: none;
         font-family: "Josefin Sans";
         transition: 0.6s ease;
@@ -95,7 +96,7 @@ li a {
             display: flex;
             color: white;
             text-align: center;
-            padding: 2.6vh 3.46vh;
+            padding: 2.6vh 3.4vh;
             text-decoration: none;
             font-family: "Josefin Sans";
             transition: 0.6s ease;
